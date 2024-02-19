@@ -1,0 +1,234 @@
+body{
+    font-family: "Open Sans";
+    /* max-width: 1500px; */
+    margin: 0 auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+H
+E
+A
+D
+E
+R
+*/
+
+header{
+    background-color: #161616;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img{
+    width: 120px;
+}
+
+nav{
+    padding: 0 20px;
+    font-family: "Qwigley";
+    display: flex;
+}
+
+nav a{
+    font-family: "Qwigley";
+    padding: 10px;
+    color: #DFC184;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+nav a:hover{
+    text-shadow: 0 0 10px white;
+}
+
+nav i{
+    width: 100%;
+    color: #DFC184;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+BACKGROUND
+ */
+
+ h1{
+    font-family: "Qwigley";
+    color: white;
+    text-align: center;
+    background-color: rgba(224, 194, 133, 0.2);
+    font-weight: 200;
+    padding: 70px;
+    font-size: 2.8rem;
+}
+
+h1 span{
+    font-size: 1.8rem;
+}
+
+
+ .background{
+    background-image: url(/img/fond.jpg);
+    background-size: cover;
+    padding: 100px 0;
+    margin: 0;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* 
+ PROMO
+  */
+
+  .promo{
+    background-color: #C2AFE4;
+    color: white;
+  }
+
+  .promo p{
+    margin: 0;
+    padding: 25px;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* a propos */
+
+.apropos{
+    padding: 20px;
+    color: #60574b;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* nos */
+
+.nos{
+    background-color: #826f5e;
+    color: white;
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.nos img{
+    border-radius: 200px;
+    width: 150px;
+}
+
+.nos h2{
+    font-family: "Qwigley";
+    font-size: 2.4rem;
+}
+
+.nos p {
+    width: 70%;
+}
+
+.nos div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #161616;
+    text-align: center;
+    color: white;
+    padding: 40px 0;
+}

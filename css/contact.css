@@ -1,0 +1,233 @@
+main{
+    margin: 20px;
+    font-family: "Open Sans";
+}
+
+
+
+
+
+/* HEADER */
+
+header{
+    background-color: #161616;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img{
+    width: 120px;
+}
+
+nav{
+    padding: 0 20px;
+    font-family: "Qwigley";
+    display: flex;
+    color: #DFC184;
+}
+
+nav a{
+    font-family: "Qwigley";
+    padding: 10px;
+    color: #DFC184;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+nav i{
+    width: 100%;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.nav-contact{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+h1{
+    font-family: "Qwigley";
+    color: #645B50;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 200;
+    padding: 20px 0;
+    font-size: 3.2rem;
+}
+
+
+
+/* TABLEAU */
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+caption{
+    background-color: #E3C6AF;
+    font-size: 1.1rem;
+    outline: 1px solid grey;
+    padding: 12px;
+    text-align: left;
+    color: #61656A;
+    font-weight: 400;
+}
+
+
+tbody td{
+    outline: 1px solid grey;
+    color: #61656A;
+    padding: 10px;
+    text-align: center;
+    font-weight: 550;
+}
+
+.grey{
+    background-color: #F2F2F2;
+}
+
+.underline{
+    text-decoration: underline;
+    color: #8B796A;
+    cursor: pointer;
+}
+
+.underline:hover{
+    color: #b78d6a;
+}
+
+.underline:active{
+    color: rgb(83, 83, 83);
+}
+
+.txtleft{
+    text-align: left;
+    width: 45%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FORMULAIRE */
+
+
+h2, h3{
+    font-family: "Qwigley";
+    color: #645B50;
+    text-align: center;
+    font-weight: 200;
+    font-size: 2.2rem;
+}
+
+
+input{
+    border: none;
+    border-bottom: 1px solid grey;
+    gap: 10px;
+    margin: 30px;
+}
+
+form div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.identite{
+    width: 50%;
+}
+
+input[type="email"] {
+    width: 92%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+h3{
+    padding: 0;
+    margin: 0;
+}
+
+.checkbox{
+    text-align: center;
+    color: #7F6C53;
+}
+
+
+
+.marge{
+    padding-bottom: 30px;
+}
+
+select{
+    width: 100%;
+    padding: 10px;
+    color: #7F6C53;
+}
+
+.button{
+    background-color:#7F6C53;
+    width: 110px;
+    color: white;
+    margin: 40px auto;
+    padding: 10px 0;
+}
+
+.button:hover{
+    background-color: #4b4032;
+    cursor: pointer;
+}
+
+.button:active{
+    background-color: rgb(164, 164, 164);
+    color: black;
+}
+
+
+
+
+
+
+
+footer{
+    background-color: #161616;
+    text-align: center;
+    color: white;
+    padding: 40px 0;
+}

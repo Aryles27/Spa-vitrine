@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Zone SPA</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Qwigley&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <img src="/img/logo.webp" alt="logo spa">
+        <nav>
+            <a href="index.html"><i class="fa-solid fa-water-ladder"></i>Espaces</a>
+            <a href="index.html"><i class="fa-regular fa-clock"></i>Horaires</a>
+            <a href="index.html"><i class="fa-regular fa-credit-card"></i>Tarifs</a>  
+            <a href="contact.html" class="nav-contact"><i class="fa-regular fa-envelope"></i>Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="creneau">
+            <h1>Réservez votre créneau massage</h1>
+
+
+            <table>
+                
+                        <caption colspan="3">Session découverte de 45 minutes</caption>
+                  
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="txtleft">05 janvier 2024</td>
+                        <td>15h30</td>
+                        <td class="underline">Réserver ce créneau</td>
+                    </tr>
+                    <tr class="grey">
+                        <td class="txtleft">10 janvier 2024</td>
+                        <td>16h30</td>
+                        <td class="underline">Réserver ce créneau</td>
+                    </tr>
+                    <tr>
+                        <td class="txtleft">15 janvier 2024</td>
+                        <td>15h30</td>
+                        <td class="underline">Réserver ce créneau</td>
+                    </tr>
+                    <tr class="grey">
+                        <td class="txtleft">20 janvier 2024</td>
+                        <td>16h30</td>
+                        <td class="underline">Réserver ce créneau</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+        <section class="formulaire">
+            <h2>Pour valider votre réservation, compléter ce formulaire :</h2>
+
+            <form method="post">
+                <div>
+                    <input class="identite" type="text" name="prenom" placeholder="Votre prénom">
+                    
+                    <input class="identite" type="text" name="nom" placeholder="Votre nom">
+                </div>
+
+                <input type="email" name="email" placeholder="Votre adresse mail">
+
+            </form>
+
+        </section>
+
+        <section class="checkbox">
+
+            <h3>Quels sont les raisons de votre venue ?</h3>
+                <input type="checkbox" name="detente" id="raisons">
+                <label for="raisons">Besoin de me détendre</label>
+
+                <input type="checkbox" name="test" id="test">
+                <label for="test">Je veux tester avec des amis</label>
+
+            <h3>Voulez-vous souscrire à notre programme de fidélité ?</h3>
+
+            <input type="radio" name="fidel" id="oui">
+            <label for="oui">Oui</label>
+
+            <input type="radio" name="fidel" id="non">
+            <label for="non">Non</label>
+
+            <h3 class="marge">Comment avez vous connu notre SPA ?</h3>
+
+                <select>
+                    <option value="internet">Internet</option>
+                    <option value="boucheoreille">Bouche à oreille</option>
+                    <option value="reseaux">Réseaux Sociaux</option>
+                </select>
+
+                <p class="button">Envoyer</p>
+
+        </section>
+
+
+
+
+        
+
+
+    </main>
+    <footer>
+        <p>© Copyright - Zone SPA - 2023</p>
+    </footer>
+    
+</body>
+</html>
